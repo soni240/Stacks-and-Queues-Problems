@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UC2_Peak_Pop_Stack_Empty
+namespace UC3_Queue_enqueu
 {
     internal class Node
     {
@@ -18,4 +18,5 @@ namespace UC2_Peak_Pop_Stack_Empty
         }
     }
 }
+    
 
