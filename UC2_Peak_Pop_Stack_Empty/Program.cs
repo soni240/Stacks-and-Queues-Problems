@@ -1,6 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
-
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -8,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UC1_Create_Stack
+namespace UC2_Peak_Pop_Stack_Empty
 {
     class Program
     {
@@ -25,6 +23,13 @@ namespace UC1_Create_Stack
                     stack.Push(70);
                     stack.Push(30);
                     stack.Push(56);
+                    stack.Display();
+                    break;
+                case 2:
+                    stack.Push(70);
+                    stack.Push(30);
+                    stack.Push(56);
+                    stack.Pop();
                     stack.Display();
                     break;
                 default:

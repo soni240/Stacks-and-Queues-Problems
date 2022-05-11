@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UC1_Create_Stack
+namespace UC2_Peak_Pop_Stack_Empty
 {
     internal class Node
     {
