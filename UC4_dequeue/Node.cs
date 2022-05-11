@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UC3_Queue_enqueu
+namespace UC4_dequeue
 {
     internal class Node
     {
@@ -18,5 +18,6 @@ namespace UC3_Queue_enqueu
         }
     }
 }
+
     
 

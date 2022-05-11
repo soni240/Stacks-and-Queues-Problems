@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UC3_Queue_enqueu
+namespace UC4_dequeue
 {
     class Program
     {
@@ -21,6 +21,7 @@ namespace UC3_Queue_enqueu
                 Console.WriteLine("3.------------Queue Operations-----------");
                 Console.WriteLine("Enter the option");
                 int num = Convert.ToInt32(Console.ReadLine());
+                //Creating object for stack class
                 Stack stack = new Stack();
                 switch (num)
                 {
@@ -42,8 +43,10 @@ namespace UC3_Queue_enqueu
                         while (flag1 == "Y" || flag1 == "y")
                         {
                             Console.WriteLine("***1.Enqueue Operation***");
+                            Console.WriteLine("***2.Dequeue Operation***");
                             Console.WriteLine("Enter the option");
                             int num1 = Convert.ToInt32(Console.ReadLine());
+                            //Creating object for dequeue class
                             Queue queue = new Queue();
                             switch (num1)
                             {
@@ -51,6 +54,13 @@ namespace UC3_Queue_enqueu
                                     queue.Enqueue(56);
                                     queue.Enqueue(30);
                                     queue.Enqueue(70);
+                                    queue.Display();
+                                    break;
+                                case 2:
+                                    queue.Enqueue(56);
+                                    queue.Enqueue(30);
+                                    queue.Enqueue(70);
+                                    queue.Dequeue();
                                     queue.Display();
                                     break;
                                 default:
@@ -68,8 +78,6 @@ namespace UC3_Queue_enqueu
                 Console.WriteLine("\nDo you want to continue?(Y/N)");
                 flag = Console.ReadLine();
             }
-            Console.ReadKey();
-
 
         }
     }
